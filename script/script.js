@@ -7,4 +7,4 @@ function reaction () {
 
 }
 
-clickMebutton.addEventListener("Click", reaction);
+clickMebutton.addEventListener("Click", reaction)
