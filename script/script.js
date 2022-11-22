@@ -64,3 +64,16 @@ function changeBGGreen(event)
 }
 
 clickMebutton.addEventListener("click", changeBGGreen);
+
+
+
+const buttonContainer = document.querySelector(".buttoncontainer");
+buttonContainer.addEventListener("mouseover", changeBGGreen);
+
+buttonContainer.addEventListener("click", changeParaToColor);
+
+function changeParaToColor(event)
+{
+
+    event.target.style.color = event.target.textContent
+}
